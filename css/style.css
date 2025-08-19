@@ -453,8 +453,9 @@ body {
 
 /* event */
 .bg-event {
-  background-image: url("../images/bg-event.jpg");
+  background-image: url("../images/event/event1.JPG");
   background-size: cover;
+  background-position: center;
   overflow-x: hidden;
 }
 .event {

@@ -85,7 +85,7 @@ body {
 }
 
 .popup-content .example1 {
-  font-size: 2em;
+  font-size: 5em px;
   color: var(--bg);
   text-shadow: 1px 1px 3px rgba(58, 79, 71, 0.8);
   font-weight: normal;
@@ -172,7 +172,11 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, rgba(1, 1, 1, 0), rgba(1, 1, 1, 0.5));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(1, 1, 1, 0),
+    rgba(1, 1, 1, 0.5)
+  );
   position: absolute;
   bottom: 0;
 }
@@ -361,7 +365,11 @@ body {
 /* about2 */
 .about2 {
   padding: 7rem 7% 1.4rem;
-  background-image: linear-gradient(to top, rgba(93, 100, 111, 0.3), rgba(255, 255, 255, 0.5));
+  background-image: linear-gradient(
+    to top,
+    rgba(93, 100, 111, 0.3),
+    rgba(255, 255, 255, 0.5)
+  );
 }
 
 .about2 .row {
@@ -794,7 +802,11 @@ body {
 /* Gift */
 .gift {
   padding: 7rem 7%;
-  background-image: linear-gradient(to top, rgba(93, 100, 111, 0.3), rgba(255, 255, 255, 0.3));
+  background-image: linear-gradient(
+    to top,
+    rgba(93, 100, 111, 0.3),
+    rgba(255, 255, 255, 0.3)
+  );
 }
 
 .gift h2 {
@@ -855,7 +867,11 @@ body {
   padding: 3rem;
   margin: 1.5rem;
   text-align: center;
-  background: linear-gradient(to bottom left, rgba(205, 204, 204, 0.445) 30%, #fff 70%);
+  background: linear-gradient(
+    to bottom left,
+    rgba(205, 204, 204, 0.445) 30%,
+    #fff 70%
+  );
   transform-origin: top;
   opacity: 0;
   transform: translateY(-20px);
@@ -1038,7 +1054,11 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
   position: absolute;
   bottom: 0;
 }
@@ -1118,7 +1138,7 @@ footer .credit {
   letter-spacing: 1px;
 }
 footer .socials a,
-footer .credit, 
+footer .credit,
 footer .credit a {
   color: var(--dark-75);
 }
